@@ -215,9 +215,20 @@ List(menuItems) { item in
 
 -----
 
+## Lesson 6 - Complexity of larger apps
+
+Everything we have build so far has only had one page for the view and storing data. This is good for learning, but with morecomplex apps there are a few more challenges we need to look at.
+
+The first is files. At the moment, we are building our apps with one or two files. This is ok for these lightweight apps but as these apps get more complex, it is better to split up the app into segments to make it easier to work on parts of the app and for debugging.
+
+The second is data. Apps generaly do not start with data pre written to them. Instead, when the app boots, it calls to a server or database where the data required is being stored. It will only collect data depending on what is required. This is becuase these apps are installed on mobile apps where performance is limited compared to super powerful computers and servers.
+
+Finally, if you need to use a button or an element on every view of your app. Instead of writing out the element each time and coding it into each view. We can define it as an independent view and use it accross our app instead.
 
 
+-----
 
+## Lesson 7 - Structures Part 2
 
 
 
