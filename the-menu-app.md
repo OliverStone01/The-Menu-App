@@ -211,7 +211,7 @@ List(menuItems) { item in
 .listStyle(.plain)
 ```
 
-<img alt="Final" src="" style="width:150px">
+<img alt="Final" src="/image-assets/final.png" style="width:150px">
 
 -----
 
